@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Animations & Transitions Demo</title>
+</head>
+<body>
+  <header>
+    <ul>
+      <li><a href="pages/keyframes.html">動畫/keyframes</a></li>
+      <li><a href="pages/transition.html">漸變/transition</a></li>
+      <li><a href="pages/landing.html">登陸頁/landing</a></li>
+    </ul>
+  </header>
+</body>
+</html>
+
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header {
+    width: 60%;
+    margin: auto;
+    height: 10vh;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  ul {
+    margin: 0;
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: sans-serif;
+    transition-property: font-size;
+    transition-duration: 500ms;
+    padding: 1rem 2rem;
+  }
+
+  a:hover {
+    /* color: red; */
+    font-size: 2.5rem;
+  }
+
+  main {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding-top: 5rem;
+    height: 80vh;
+  }
+
+</style>
