@@ -1,4 +1,4 @@
 # CSS Animation & Transition Demo
 
-Demo: [Netlify](https://css-animation-transition-demo.netlify.app/)
+[Demo](https://css-animation-transition-demo.netlify.app/)
 
